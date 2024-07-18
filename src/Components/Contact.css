@@ -205,14 +205,14 @@ span{
     .newera{
         font-size: 16px;
         height: 35px;
-        width: 95px;
+        width: 100px;
     
     }
     .newera{
         margin-top: 20px;
     }
     .newera img{
-        height: 15px;
+        height: 18px;
     }
     .contact form input,.contact form textarea{
         display: block;
