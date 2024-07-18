@@ -203,7 +203,7 @@
         height: 130px;
     }
     .about-left{
-        margin-right: 0px;
+        margin-right: 0;
     }
     .tools{
         margin-bottom: 30px;
@@ -214,7 +214,7 @@
         margin-bottom: 20px;
     }
     .tools img{
-        height: 110px;
+        height: 1100px;
     }
     .tool{
         margin-bottom: 25px;
