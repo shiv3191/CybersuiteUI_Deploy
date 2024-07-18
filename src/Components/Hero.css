@@ -64,11 +64,11 @@
 }
 @media (max-width:390px){
     .hero h1{
-        font-size: 20px;
+        font-size: 27px;
         font-weight: 600;
     }
     .hero p{
-        font-size: 15px;
+        font-size: 26px;
     }
     .bn{
         margin-top: 17px;
@@ -77,7 +77,10 @@
         height: 17px;
     }
     .shiv{
-        font-size: 15px;
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 17px;
     }
 
 }
