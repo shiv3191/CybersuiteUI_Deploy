@@ -1,0 +1,153 @@
+.phones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    height: 430px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 8px #999;
+    border-radius: 1rem;
+}
+.phone:hover{
+    outline: none;
+    transform: scale(1.05) translateY(.125rem);
+}
+.phone img{
+    height: 250px;
+    border-radius: 20px;
+}
+.phone{
+    margin-left:30px;
+
+}
+ .phone h1{
+    font-size: 20px;
+ }
+ .roshan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+ }
+ .phone p{
+    margin-top: 10px;
+    padding: 0 10px;
+ }
+ 
+
+/* CSS */
+.phone button{
+    margin-top: 10px;
+}
+.button-84 {
+    font-size: 15px;
+    height: 40px;
+    width: 110px;
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow:  rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+.button-84:hover {
+    outline: 0;
+    transform: scale(1.05) translateY(.125rem);
+}
+
+.button-84:active {
+  outline: 0;
+}
+
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 720px){
+  .phone{
+    height: 360px;
+    width: 200px;
+  }
+  .phone img{
+    height: 200px;
+  }
+.phone{
+    margin-left:20px;
+
+  }
+  .phone h1{
+    font-size: 16px;
+ }
+ .phone p{
+    font-size: 13px;
+ }
+ .button-84 {
+  font-size: 12px;
+  height: 30px;
+  width: 90px;
+padding: 0 7px;
+
+}
+.roshan h1{
+  font-size: 25px;
+}
+ 
+
+}
+@media (max-width: 470px){
+  .phone{
+    height: 300px;
+    width: 170px;
+  }
+  .phone img{
+    height: 150px;
+  }
+  .roshan h1{
+    font-size: 20px;
+  }
+.phone{
+    margin-left:15px;
+
+  }
+  .phone h1{
+    font-size: 14px;
+ }
+ .phone p{
+    font-size: 11px;
+ }
+ .button-84 {
+  font-size: 9px;
+  height: 20px;
+  width: 90px;
+padding: 0 5px;
+
+}
+ 
+
+}
