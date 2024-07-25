@@ -8,7 +8,7 @@ const Cards = () => {
             <img src="https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2019/08/27120406/abstract-spam_SL_pic.jpg" alt="" />
             <h1>Email Spam Classifier</h1>
             <p>This should analyse email headers, content, and attachments to detect phishing attempts, malware, and suspicious links</p>
-            <button class="shiv1" role="button">Click here</button>
+            <button class="shiv1" role="button"><a href="https://mailclassifier-deploy.onrender.com/">Click here</a></button>
         </div>
         <div className="program">
             <img src="https://static.vecteezy.com/system/resources/previews/004/586/124/original/lock-cyber-security-padlock-with-keyhole-icon-made-with-binary-code-protect-and-security-or-safe-concept-illustrates-cyber-data-security-or-information-privacy-idea-illustration-vector.jpg" alt="" />
