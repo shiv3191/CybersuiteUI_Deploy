@@ -14,7 +14,7 @@ const Cards = () => {
             <img src="https://static.vecteezy.com/system/resources/previews/004/586/124/original/lock-cyber-security-padlock-with-keyhole-icon-made-with-binary-code-protect-and-security-or-safe-concept-illustrates-cyber-data-security-or-information-privacy-idea-illustration-vector.jpg" alt="" />
             <h1>Password Checker</h1>
             <p>This determines about the password whether the password is strong or weak which helps you to create the strong password and keep your account safe.</p>
-            <button class="shiv1" role="button">Click here</button>
+            <button class="shiv1" role="button"><a href="https://passwordcheckerproject.netlify.app/">Click here</a></button>
         </div>
         <div className="program">
             <img src="https://tse1.mm.bing.net/th?id=OIP.RrCdVxO8DiOhOk13MMpwowHaFD&pid=Api&P=0&h=180" alt="" />
