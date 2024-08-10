@@ -27,6 +27,14 @@
     height: 250px;
     border-radius: 20px;
 }
+.men{
+  margin-top: 80px;
+}
+.number img{
+    width: 200px;
+    height: 210px;
+    border-radius: 20px;
+}
 .phone{
     margin-left:30px;
 
