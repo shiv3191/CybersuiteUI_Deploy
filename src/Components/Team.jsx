@@ -3,6 +3,8 @@ import patel from "../Components/shiv2.jpg"
 import roshan from "../Components/roshan.jpg"
 import yogesh from "../Components/yogesh.jpg"
 import vishal from "../Components/vishal.jpg"
+import siddhesh from "../Components/siddhesh.jpg"
+import satvick from "../Components/satvick.jpg"
 import "./Team.css"
 
 const Team = () => {
@@ -46,6 +48,31 @@ const Team = () => {
         </div>
         
       
+    </div>
+    <div className="men">
+
+    <div className="roshan">
+        <h1>Our Mentors</h1>
+    </div>
+    <div className='phones'>
+
+        <div className="phone number">
+            <img src={siddhesh} alt="" />
+            <h1>Siddhesh Waje</h1>
+            <p>I am in 3rd year pursuing Btech from IIT INDORE in Computer Science Engineering.</p>
+            <button class="button-84" role="button"><a href="https://www.linkedin.com/in/siddhesh-waje-526480253/">Know More</a></button>
+            
+        </div>
+        <div className="phone">
+            <img src={satvick} alt="" />
+            <h1>Satvik Desai </h1>
+            <p>I am in 3rd year pursuing Btech from IIT INDORE in Electrical Engineering.</p>
+            <button class="button-84" role="button"><a href="https://www.linkedin.com/in/satvik-desai-b77a2524b/">Know More</a></button>
+            
+        </div>
+        
+      
+    </div>
     </div>
     </div>
   )
